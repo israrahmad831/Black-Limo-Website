@@ -1,7 +1,7 @@
 import React from "react";
-import weddingImage from "../../Sections/Taqi/assets/bottom card 1.png";
-import partyImage from "../../Sections/Taqi/assets/bottom card 2.png";
-import corporateImage from "../../Sections/Taqi/assets/bottom card 3.png";
+import weddingImage from "../../Sections/Section3/assets/bottom card 1.png";
+import partyImage from "../../Sections/Section3/assets/bottom card 2.png";
+import corporateImage from "../../Sections/Section3/assets/bottom card 3.png";
 import Styles from "./Blogs.module.css";
 
 const s = Styles;
