@@ -1,0 +1,156 @@
+.pageContainer {
+  background: #1a1a1a;
+  color: #e6e6e6;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #b3b3b3;
+}
+
+.infoSection,
+.formSection {
+  margin-bottom: 30px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding: 25px;
+  background-color: black;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #333;
+}
+
+.infoSection:hover,
+.formSection:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.infoTitle,
+.formTitle {
+  font-size: 1.8rem;
+  color: #e6e6e6;
+  margin-bottom: 15px;
+}
+.formSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  width: 100%;
+  max-width: 500px;
+}
+.contactDetails {
+  list-style-type: none;
+  padding-left: 20px;
+  color: #d9d9d9;
+}
+
+.contactDetails li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #333;
+  border: 1px solid #444;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 5px;
+  resize: none;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #bbb;
+}
+
+.submitButton {
+  background-color: #09a0f7;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submitButton:hover {
+  background-color: #056196;
+}
+
+.submitButton:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .infoTitle,
+  .formTitle {
+    font-size: 1.5rem;
+  }
+
+  .contactDetails li,
+  .label,
+  .input,
+  .textarea {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .infoTitle,
+  .formTitle {
+    font-size: 1.3rem;
+  }
+
+  .contactDetails li,
+  .label,
+  .input,
+  .textarea {
+    font-size: 0.8rem;
+  }
+}

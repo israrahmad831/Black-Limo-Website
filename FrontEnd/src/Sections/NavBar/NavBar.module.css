@@ -1,0 +1,139 @@
+.upper-contact-div {
+  justify-self: center;
+  height: 100%;
+  width: 100%;
+  background-color: #0c0c0c;
+}
+
+.upper-contact-inner-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.flex-vertically-center {
+  display: flex;
+  align-items: center;
+}
+
+.upper-contact-left-div {
+  display: flex;
+}
+
+.upper-contact-no {
+  font-family: "lato";
+  font-size: 15px;
+  color: #8d8d8d;
+  margin-left: 4px;
+}
+
+.upper-email {
+  margin-left: 46px;
+}
+
+.upper-contact-email {
+  font-family: "lato";
+  color: #8d8d8d;
+  margin-left: 6px;
+}
+
+.upper-contact-button-div {
+  gap: 10px;
+  display: flex;
+}
+
+.upper-contact-button-rectangle {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #09a0f7;
+}
+
+.header {
+  justify-self: center;
+  background-color: #000000;
+  height: 100%;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.header-inner-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.header-button-div {
+  gap: 5px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header-button-div span {
+  font-family: "oswald";
+  font-size: 19px;
+  color: #ffffff;
+  padding: 2px 20px;
+}
+
+.header-button-menu {
+  display: none;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.header-button-first {
+  border: solid 1px #09a0f7;
+}
+.header-button-div span:hover {
+  background-color: #09a0f7;
+}
+.nav-link {
+  font-family: "Oswald";
+  font-size: 19px;
+  color: #ffffff;
+  padding: 2px 0;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #09a0f7;
+}
+
+.active-link {
+  background-color: #09a0f7;
+}
+
+span.header-button-last {
+  padding-right: 20px;
+}
+
+@media (max-width: 1024px) {
+  .header-inner-container {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-button-div span {
+    display: none;
+  }
+
+  span.header-button-menu {
+    display: block;
+  }
+  .upper-contact-button-div {
+    gap: 20px;
+  }
+  .upper-contact-left-div {
+    display: none;
+  }
+}

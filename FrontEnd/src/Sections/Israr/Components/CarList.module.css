@@ -1,0 +1,110 @@
+.Carlists {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.Carlists h2 {
+  color: rgba(255, 255, 255, 0.322);
+  font-size: 2rem;
+  font-family: "oswald";
+}
+
+.container {
+  height: 400px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+}
+
+.menu {
+  width: 250px;
+  margin-left: 100px;
+  font-family: "oswald";
+  color: #ccc;
+}
+
+.menu-item {
+  padding: 15px 0px 15px 0px;
+  margin: 10px 0px 0px 0px;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+.menu-item:hover {
+  background-color: #007bff;
+}
+
+.car-selection {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+
+.ellipse {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.car {
+  position: absolute;
+  top: 100px;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.car-info {
+  z-index: 3;
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  margin: 20px 0px 0px 60px;
+}
+
+.car-info h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  font-family: "oswald";
+}
+
+.car-info p {
+  font-size: 24px;
+  margin: 5px 0px 0px 80px;
+  color: #000;
+  font-family: "lato";
+}
+
+@media (max-width: 1024px) {
+  .content p {
+    padding: 0px 20px;
+    text-align: justify;
+  }
+  .car-selection {
+    display: none;
+  }
+  .container {
+    justify-content: center;
+  }
+  .menu {
+    margin: 0px;
+  }
+  .menu-item {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .Carlists h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,149 @@
+.blogPageContainer {
+  background: #1a1a1a;
+  color: #e6e6e6;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.blogPageHeader {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blogPageHeader h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.blogPageHeader p {
+  font-size: 1.2rem;
+  color: #b3b3b3;
+}
+
+.blogPostList {
+  margin-top: 30px;
+}
+
+.blogPost {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background: #292929;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.blogPost:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.blogHeader {
+  display: flex;
+  align-items: center;
+}
+
+.blogImageContainer {
+  max-width: 300px;
+  position: relative;
+}
+
+.blogImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.blogDetails {
+  flex: 2;
+  margin-left: 20px;
+}
+
+.blogDetails h2 {
+  font-size: 1.8rem;
+  color: #e6e6e6;
+  margin-top: 10px;
+}
+
+.blogInfo {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+  margin-bottom: 10px;
+}
+
+.blogInfo span {
+  margin-right: 10px;
+}
+
+.blogText {
+  margin-top: 20px;
+}
+
+.blogText p {
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #cccccc;
+  margin-bottom: 15px;
+}
+
+.blogText p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .blogPageHeader h1 {
+    font-size: 2rem;
+  }
+
+  .blogPostList {
+    margin-top: 20px;
+  }
+
+  .blogPost {
+    flex-direction: column;
+  }
+  .blogHeader {
+    flex-direction: column;
+  }
+  .blogDetails {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+
+  .blogDetails h2 {
+    font-size: 1.6rem;
+  }
+
+  .blogInfo {
+    font-size: 0.8rem;
+  }
+
+  .blogText p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .blogPageHeader h1 {
+    font-size: 1.8rem;
+  }
+
+  .blogDetails h2 {
+    font-size: 1.3rem;
+  }
+
+  .blogInfo {
+    font-size: 0.8rem;
+  }
+
+  .blogText p {
+    font-size: 0.8rem;
+  }
+}

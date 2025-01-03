@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE or editor files
+.vscode/
+.idea/
+*.swp
+
+# Build and production files
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage directory for testing
+coverage/
+
+# Static assets built by bundlers
+/public/assets/
+frontend/src/assets/

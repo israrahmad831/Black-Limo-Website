@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "myraidpro";
+  max-width: 1400px;
+}
+@font-face {
+  font-family: "lato";
+  src: url("./assets/fonts/Lato/Lato-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("./assets/fonts/Oswald/Oswald-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "laoui";
+  src: url("./assets/fonts/LaoUI/LaoUI.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "myraidpro";
+  src: url("./assets/fonts/myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF");
+  font-weight: normal;
+  font-style: normal;
+}
