@@ -42,23 +42,28 @@ Welcome to the **Black Limo Website** project! This is a full-stack application 
 - React-Routers
 - React-Protypes
 
-**How to Run**
+## **How to Run**
 
-For the frontend:
+# **For the frontend**:
+
 cd FrontEnd
-npm run dev
-For the backend:
-cd BackEnd
+
 npm run dev
 
-**Contributing**
+# **For the backend**:
+
+cd BackEnd
+
+npm run dev
+
+## **Contributing**
 Contributions are welcome! Feel free to fork the repository, make changes, and open a pull request.
 
-**Contact**
+## **Contact**
 For any questions or feedback, feel free to reach out:
 
-**Author: Israr Ahmad**
-**GitHub: israrahmad831**
+## **Author: Israr Ahmad**
+## **GitHub: israrahmad831**
 
 
 
