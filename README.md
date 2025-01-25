@@ -73,4 +73,4 @@ For any questions or feedback, feel free to reach out:
 
 ## **GitHub: israrahmad831**
 
-## **LinkedIn: https://www.linkedin.com/in/israrahmad2004/ **
+## **LinkedIn: https://www.linkedin.com/in/israrahmad2004/**
